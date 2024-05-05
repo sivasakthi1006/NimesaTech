@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nimesa.careers.multithreading_assignment.ProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-05T18:48:30" hostname="ib15-ThinkPad-E14-Gen-3" time="30.561">
+  <properties/>
+  <testcase name="testProcess()" classname="com.nimesa.careers.multithreading_assignment.ProcessorTest" time="30.561"/>
+  <system-out><![CDATA[00:18:28.984 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.nimesa.careers.multithreading_assignment.ProcessorTest]: ProcessorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:18:29.048 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.nimesa.careers.CareersApplication for test class com.nimesa.careers.multithreading_assignment.ProcessorTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2024-05-06T00:18:29.304+05:30  INFO 46674 --- [    Test worker] c.n.c.m.ProcessorTest                    : Starting ProcessorTest using Java 21.0.1 with PID 46674 (started by ib15 in /home/ib15/Downloads/Nimesa-Assignment/assignment)
+2024-05-06T00:18:29.306+05:30  INFO 46674 --- [    Test worker] c.n.c.m.ProcessorTest                    : No active profile set, falling back to 1 default profile: "default"
+2024-05-06T00:18:30.125+05:30  INFO 46674 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@364fd4ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@245253d8, org.springframework.security.web.context.SecurityContextHolderFilter@4f281aaf, org.springframework.security.web.header.HeaderWriterFilter@664e848c, org.springframework.web.filter.CorsFilter@12417468, org.springframework.security.web.csrf.CsrfFilter@ee21292, org.springframework.security.web.authentication.logout.LogoutFilter@4f93bf0a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77724cbe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@35650279, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@459003a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@623e0631, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f2b90fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bb41f5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d325518, org.springframework.security.web.access.ExceptionTranslationFilter@160b4809, org.springframework.security.web.access.intercept.AuthorizationFilter@1a950fdd]
+2024-05-06T00:18:30.162+05:30  INFO 46674 --- [    Test worker] c.n.c.m.ProcessorTest                    : Started ProcessorTest in 1.021 seconds (process running for 1.757)
+pool-2-thread-1
+ForkJoinPool.commonPool-worker-1
+Starting Task d37374c4-2ba0-4903-bc6a-3c591d08666f
+ForkJoinPool.commonPool-worker-2
+Starting Task 191f7d90-ded0-4c18-919f-46f5590ec706
+Starting Task 0d7227af-4fcd-4d3f-b400-1a33ef99b2e5
+Completed Task d37374c4-2ba0-4903-bc6a-3c591d08666fWith StatusSUCCESS
+Completed Task 191f7d90-ded0-4c18-919f-46f5590ec706With StatusSUCCESS
+Completed Task 0d7227af-4fcd-4d3f-b400-1a33ef99b2e5With StatusSUCCESS
+ForkJoinPool.commonPool-worker-2
+Starting Task 0b704245-3b0d-44f2-b6bf-132664decb8a
+pool-3-thread-1
+Starting Task 6bdbccca-9f86-40c0-9a7a-d4d627b74f51
+Completed Task 0b704245-3b0d-44f2-b6bf-132664decb8aWith StatusSUCCESS
+Completed Task 6bdbccca-9f86-40c0-9a7a-d4d627b74f51With StatusSUCCESS
+pool-4-thread-1
+Starting Task 4dcb5843-57b4-475c-b0c5-4b906b172b60
+Completed Task 4dcb5843-57b4-475c-b0c5-4b906b172b60With StatusSUCCESS
+pool-5-thread-1
+Starting Task 00dc579f-1a43-42e0-88ec-43f19b7b853a
+ForkJoinPool.commonPool-worker-2
+Starting Task eafd49f9-729f-43c0-ae46-8ca7b3a5f60a
+Completed Task eafd49f9-729f-43c0-ae46-8ca7b3a5f60aWith StatusSUCCESS
+Completed Task 00dc579f-1a43-42e0-88ec-43f19b7b853aWith StatusSUCCESS
+d37374c4-2ba0-4903-bc6a-3c591d08666f completed SUCCESS
+191f7d90-ded0-4c18-919f-46f5590ec706 completed SUCCESS
+0d7227af-4fcd-4d3f-b400-1a33ef99b2e5 completed SUCCESS
+0b704245-3b0d-44f2-b6bf-132664decb8a completed SUCCESS
+6bdbccca-9f86-40c0-9a7a-d4d627b74f51 completed SUCCESS
+4dcb5843-57b4-475c-b0c5-4b906b172b60 completed SUCCESS
+eafd49f9-729f-43c0-ae46-8ca7b3a5f60a completed SUCCESS
+00dc579f-1a43-42e0-88ec-43f19b7b853a completed SUCCESS
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/ib15/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.11/f9cb566608fbac6bc7bf54901a7aa11543a989ee/byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
